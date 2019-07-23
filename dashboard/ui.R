@@ -5,6 +5,12 @@ library(DT)
 library(cowplot)
 source("../get_stockrow/get_stockrow.R")
 
+untidy_stockrow <<- function(dat){
+  dat %>% gather(key = "Key", value = "Value", -"Date") %>%
+    spread(key = Date, value = Value) %>%
+    .[match(colnames(dat)[-1], .$Key),] %>%
+    select(Key, dim(.)[2]:2)
+}
 
 # sidebar
 sidebar <- dashboardSidebar(

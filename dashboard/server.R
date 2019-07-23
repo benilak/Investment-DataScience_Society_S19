@@ -88,21 +88,21 @@ server <- function(input, output) {
     get_stockrow(input$searchText, section = "income")
   })
   output$income.table <- renderDataTable({
-    dat.income()
+    untidy_stockrow(dat.income())
   }, options = list(scrollX = TRUE))
   dat.balance <- reactive({
     req(input$searchButton)
     get_stockrow(input$searchText, section = "balance")
   })
   output$balance.table <- renderDT({
-    dat.balance()
+    untidy_stockrow(dat.balance())
   }, options = list(scrollX = TRUE))
   dat.cash <- reactive({
     req(input$searchButton)
     get_stockrow(input$searchText, section = "cash")
   })
   output$cash.table <- renderDT({
-    dat.cash()
+    untidy_stockrow(dat.cash())
   }, options = list(scrollX = TRUE))
   dat.metrics <- reactive({
     req(input$searchButton)
@@ -113,14 +113,14 @@ server <- function(input, output) {
   #   get_stockrow(input$searchText, section = "metrics", dimension = "quarter")
   # })
   output$metrics.table <- renderDT({
-    dat.metrics()
+    untidy_stockrow(dat.metrics())
   }, options = list(scrollX = TRUE))
   dat.growth <- reactive({
     req(input$searchButton)
     get_stockrow(input$searchText, section = "growth")
   })
   output$growth.table <- renderDT({
-    dat.growth()
+    untidy_stockrow(dat.growth())
   }, options = list(scrollX = TRUE))
 
   # Plots #
