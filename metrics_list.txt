@@ -1,0 +1,63 @@
+INCOME STATEMENT
+sales			Revenue (income statement)
+ebitda			EBITDA (income statement)
+d & a			Depreciation & Amortization (cash flow)
+operating income	Operating Income (income statement)
+non-oper. gain		
+pre-tax income		Earnings before Tax (income statement)
+minority interests	Net Income - Non-Controlling int (income statement)
+net income		Net Income (income statement)
+
+RATIOS (%)	
+gross margin		Gross Margin (income statement)
+SG&A / sales		SG&A to Revenue (metrics)
+r & d / sales		R&D to Revenue (metrics)
+ebitda margin		EBITDA Margin (income statement)
+operating margin	
+tax rate
+net income margin	Net Profit Margin (income statement)
+
+GROWTH (%)
+sales growth		Revenue Growth (income statement)
+op. inc. growth		Operating Income Growth (growth)
+net income growth	Net Income Growth (growth)
+EPS growth		EPS Growth (growth)
+
+PER SHARE AND F-SCORE
+sales per share		Revenue per Share? (metrics)
+basic EPS		EPS? (income statement)
+diluted EPS		EPS (Diluted)? (income statement)
+DPS			DPS? (income statement)
+payout ratio		Payout Ratio? (metrics)
+book value per share	Book Value per Share? (metrics)
+Piotroski		(available on stockrow.com)
+
+BALANCE SHEET
+cash and mktable sec	Cash and short-term investments 
+inventory
+accounts rec
+current assets
+net PPE
+goodwill
+total assets
+accounts payable
+current liabilities
+total debt
+common equity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
