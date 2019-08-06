@@ -1,5 +1,5 @@
 # get_stockrow
-A custom function that pulls various data sets for a stock from [stockrow.com](http://stockrow.com) and saves as a compatible data structure. Available data sets for each publically trade company includes: 
+A custom function that pulls various data sets for a stock from [stockrow.com](http://stockrow.com) and saves as a compatible data structure. Available data sets for each publically traded company includes: 
   
   * income statement 
   * balance sheet
